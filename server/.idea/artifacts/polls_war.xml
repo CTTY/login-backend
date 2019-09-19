@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="polls:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>polls</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="authServer-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="polls:war exploded" />
+    </root>
+  </artifact>
+</component>
